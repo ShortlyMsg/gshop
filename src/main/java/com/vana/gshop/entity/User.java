@@ -36,8 +36,8 @@ public class User {
     @Column(name="phone")
     private String phone;
 
-    @Column(name="crate_date")
-    private LocalDateTime releaseDate;
+    @Column(name="crated_date")
+    private LocalDateTime createdDate;
 
 
 
